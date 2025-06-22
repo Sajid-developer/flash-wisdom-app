@@ -5,4 +5,4 @@
 
 ## 📷 Screenshot
 
-![Screenshot](images/.png)
+![Screenshot](images/screenshot.png)
