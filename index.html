@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flashcard App</title>
+</head>
+<body>
+  <div class="flashcard-container">
+    <div class="flashcard" id="flashcard">
+      <div class="card-face front" id="card-front">What is JavaScript?</div>
+      <div class="card-face back" id="card-back">A programming language for the web</div>
+    </div>
+    <div class="buttons">
+      <button onclick="prevCard()">Previous</button>
+      <button onclick="nextCard()">Next</button>
+    </div>
+  </div>
+
+  <!---- js file linked ---->
+  <script src="app.js" defer></script>
+</body>
+</html>
